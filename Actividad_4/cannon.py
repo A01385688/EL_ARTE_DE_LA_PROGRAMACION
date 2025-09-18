@@ -70,7 +70,7 @@ def move():
 
     draw()
 
-     """Este ciclo detiene el juego si y solo si la posición del objetivo es inferior a -200, por ello nada más en el mismo bucle, inicializamos el objetivo en una posición x anterior una nueva coordenada aleatoria en y"""
+    """Este ciclo detiene el juego si y solo si la posición del objetivo es inferior a -200, por ello nada más en el mismo bucle, inicializamos el objetivo en una posición x anterior una nueva coordenada aleatoria en y"""
     for target in targets:
         if not inside(target):
             target.x = 200
